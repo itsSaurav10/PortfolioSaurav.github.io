@@ -540,3 +540,9 @@ span{
 .blog h3{
     padding: 1.6rem;
 }
+
+.competetiveprogramming{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: monospace;
+}

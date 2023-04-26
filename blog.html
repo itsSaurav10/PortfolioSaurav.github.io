@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saurav's Blog</title>
@@ -14,17 +15,57 @@
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <a href="#cp" class="active"> Competetive Programming </a>
-            <a href="#about"> Thoughts </a>
-            <a href="#services"> Movies </a>
-            <a href="#portfolio"> Home </a>
-            <a href="#blog"> Poems </a>
+            <a href="#thoughts"> Thoughts </a>
+            <a href="#movies"> Movies </a>
+            <a href="#home"> Home </a>
+            <a href="#poems"> Poems </a>
             <a href="#contact"> Contact Me </a>
         </nav>
     </header>
 
-    <section>
-        
+    <!-- Competetive programming section -->
+    <section class="competetiveprogramming" id="competetiveprogramming">
+        <div class="cp">
+            <h2>Competetive <span>Programming</span></h2>
+            <p>
+                Let us start with the very basics of competetive programming. It is like any other mind sport
+                where you will be given some tasks and you got to solve it in some fixed amount of time.
+                Let me talk about <a href="https://codeforces.com/" target="_blank" style="color: yellow ">CodeForces</a> for instance. It is one of the world's leading competetive
+                coding platforms with users all over the world. It holds contests weekly for both division 1
+                (users rated over 2100) and for division 2(users rated under 2100). There are educational rounds,
+                ICPC style rounds.
+            </p>
+        </div>
     </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your Full Name">
+                <input type="email" placeholder="Enter your Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter your Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Saurav | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 </body>
 </html>
